@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>Search Student</title>
+  </head>
+  <body>
+  	  <h1><b><center><font size="16" color="darkblue">LTI</font></center></b></h1>
+      <h3><center><font color ="green">Search Student Details</font></center></h3>
+
+      <form action = "http://localhost:5000/studentFound" name = "sData" method = "POST">
+    <center>
+      <table border="0">
+			<tr>
+                    <td><b>StudentID</b></td>
+                    <td><input type="text" size="50" name = "sid" placeholder="StudentID" /></td> </tr>
+       </table>
+         <br>
+  
+          <center><button type="submit" name="register" class="signupbtn" 
+          	class=grey style="height:75px;width:150px">SUBMIT</button></center>
+</center>
+</form>
+
+<center><font color="red" size = 6>{{error1}}</font></center>
+<center><font color="red" size = 6>{{error2}}</font></center>
+</table>
+
+{%block content%}
+{%endblock%}
+</body>
+</html>
+
+</body>
+</html>

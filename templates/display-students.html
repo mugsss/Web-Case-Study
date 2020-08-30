@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body> 
+	  <style>
+        table {
+            border: 5px solid black; 
+                    }
+        </style>
+
+<style>
+#students 
+{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#students td, #students th
+{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#students tr:hover {background-color: #ddd;}
+
+#students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: skyblue;
+  color: black;
+}
+</style>
+
+
+<head>
+	<title>Display Students</title>
+	
+      <h1><b><center><font size="16" color="darkblue">LTI</font></center></b></h1>
+      <h3><center><font color ="green">Add Student Details</font></center></h3>
+</head>
+<table id = students>
+<tr>
+	{%for i in headerS %}
+	<th>{{i}}</th>
+	{% endfor %}
+</tr>
+
+{%for student in range(1, len1)%}
+	<tr>
+		{% for i in listDisplay[student] %}
+		<td>{{i}}</td>
+		{% endfor %}
+	</tr>
+{%endfor %}
+</table>
+
+
+</body>
+</html>

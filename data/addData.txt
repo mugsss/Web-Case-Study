@@ -1,0 +1,7 @@
+Student Id , Name, Gender, DateofBirth, City, State, EmailId, Qualification, Stream1
+1, Meera, F, 2020-08-05, Margao, Goa, super@gmail.com, B.E, Computer
+2, Mihir, M, 2020-08-12, Panaji, Goa, kdlife@gmail.com, B.E, Mechanical
+3, Naina, F, 1997-06-11, Kolkata, West Bengal, naina@gmail.com, M.TECH, Civil
+7, Rohini, F, 1999-07-10, Bangalore, Karnatka, rohini_s@gmail.com, B.E, Electrical
+9, Yash, M, 1997-10-21, Pune, Maharashtra, yash_live@gmail.com, B.E, Computer
+11, Riya, F, 1990-05-08, Hyderabad, Andhra Pradesh , riyaaa@gmail.com, M.TECH, Civil

@@ -1,0 +1,68 @@
+<html>
+<head>
+  <title>registration</title>
+  <style>
+        table {
+            border: 5px solid black; 
+            padding: 25px;
+        }</style>
+  </head>
+  <body>
+        <h1><b><center><font size="16" color="darkblue">LTI
+        </font></center></b></h1>
+      <h3><center><font color ="green">Add Student Details</font></center></h3>
+      <form name = "passData" method="POST">
+    <center>
+      <table border="0">
+            <tr>
+            <td><b>StudentID</b></td>
+            <td><input type="text" size="50" name = "sid" placeholder="Enter Your Name"/>
+            </td> </tr>
+      <tr> 
+<td><b>Student Name</b></td>
+  <td><input type="text" size="50" name = "name" placeholder="Enter Your Name" /></td> </tr>
+    <tr>
+            
+
+
+
+
+
+
+
+
+            <td><b>Gender</b></td>
+            <td><input type="radio" name="gender"value="F" >Female <br>
+                <input type="radio" name="gender" value="M">Male<br>
+            </td></tr>
+        <tr><td><b>Date of Birth</b></td><td><input type="date" name="dob"></td>
+        </tr>
+        <tr>
+            <td><b>City</b></td>
+            <td><input type="text" size="50" name = "city" ></td>
+        </tr>
+        <tr>
+                <td><b>State</b></td>
+                <td><input type="text" size="50" name = "state" ></td></tr>
+         <tr>
+                <td><b>Email ID</b></td>
+                <td><input type="text" size="50" name = "email" 
+                  pattern=".+@gmail.com" placeholder="username@gmail.com"></td></tr>
+        <tr>
+                <td><b>Qualification</b></td>
+                <td><input type="text" size="50" name = "quali"></td></tr>
+        <tr>
+                <td><b>Stream</b></td>
+                <td><input type="text" size="50" name = "stream"></td></tr>
+</table></center>
+<style>
+        table {border-collapse: separate;border-spacing: 0 15px;
+        }
+    </style>
+  <br>
+  <center><button type="submit" name="register"class="signupbtn">SUBMIT</button></center>
+</form>
+  <center><font color ="red">{{ prediction_text }}</font></center>
+  <center><font color ="green">{{ prediction_text2 }}</font></center>
+</body></html>
+          

@@ -1,0 +1,26 @@
+{%extends "search-student.html" %}
+{%block content%}
+<center>
+<style>
+	#search td
+		{
+  		border: 1px solid #ddd;
+  		padding: 8px;
+		}#search tr:hover {background-color: #ddd;}
+#search 
+{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+ }
+</style>
+  <center><font color="green" size = 6>{{success}}</font></center>
+  <table border = 1 id = search>
+    {% for key, value in dict1.items() %}
+	<tr>
+       <th> {{ key }} </th>
+       <td> {{ value }} </td>
+    </tr>
+	{% endfor %}
+ </table>
+</center>
+ {%endblock%}
